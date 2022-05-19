@@ -15,5 +15,5 @@ fun main(args: Array<String>) {
     animalsAvailable.remove("lion")
     println("After Selling Loin $animalsAvailable")
     println("Does the zoo have both elephants and giraffe : ${animalsAvailable.containsAll(listOf("elephant","giraffe"))}")
-    
+
 }
