@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
     var n= readLine()
     try {
         var price =n?.toInt()
-        println("${price?.times(99)}")
+        println("$product : ${price?.times(99)}")
     }catch (e:Exception){
         println("Exception Occur ${e.localizedMessage}")
     }

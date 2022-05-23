@@ -6,8 +6,8 @@
 fun main(args: Array<String>) {
     helloClient(5,"Meet","Amesha","Jay")
 }
-fun helloClient(count:Int,vararg name:String){
-    for(name in name){
+fun helloClient(count:Int,vararg names:String){
+    for(name in names){
         for(i in 1..count)
             print("Hello $name :")
         println()
